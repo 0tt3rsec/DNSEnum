@@ -1,5 +1,3 @@
-!/bin/python3
-
 import dns.resolver
 import sys
 
@@ -23,3 +21,4 @@ for records in record_types:
 		quit()
 	except KeyboardInterrupt:
 		quit()
+
